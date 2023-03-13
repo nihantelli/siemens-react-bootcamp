@@ -1,19 +1,28 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
-input {
+ul.menu {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  gap: 10px;
+  border-bottom: solid 1px #ddd;
   padding: 10px;
-  min-width: 240px;
-  font-size: 18px;
 }
-form {
+
+ul.menu li a {
+  color: white;
+  font-size: 24px;
+}
+
+ul.menu li a:hover {
+  color: #999;
+}
+
+.content {
+  padding: 10px;
+  font-size: 24px;
+}
+
+.user-list {
   display: flex;
   flex-direction: column;
-  gap: 4px;
-}
-form button {
-  width: 262 px;
 }
